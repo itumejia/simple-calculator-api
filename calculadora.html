@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculadora Itu</title>
+    </head>
+
+    <body>
+        <div>
+            <h2>Operaciones con dos dígitos</h2>
+            <label>Número 1:</label>
+            <input type="text" id="o2n1">
+            <label>Número 2:</label>
+            <input type="text" id="o2n2">
+        </div>
+        <div>
+            <button onclick="suma()">Suma</button>
+            <button onclick="resta()">Resta</button>
+            <button onclick="multiplicacion()">Multiplicación</button>
+            <button onclick="division()">División</button>
+        </div>
+        <div id="op2">Result:</div>
+        
+
+        <div>
+            <h2>Operaciones con un dígito</h2>
+            <label>Número 1:</label>
+            <input type="text" id="o1n1">
+        </div>
+        <div>
+            <button onclick="raiz()">Raiz Cuadrada</button>
+            <button onclick="cuadrado()">Al cuadrado</button>
+            
+        </div>
+        <div id="op1">Result:</div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="calculadora.js"></script>
+    </body>
+</html>
